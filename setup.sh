@@ -10,7 +10,7 @@ while true; do
   sudo -n true
   sleep 60
   kill -0 "$S" || exit
-done 2>/deb/null &
+done 2>/dev/null &
 
 # Setup Finder Commands
 # Show Library Folder in Finder
@@ -62,6 +62,8 @@ echo "Installing Powerline fonts..."
 git clone https://github.com/powerline/fonts.git
 cd fonts || exit
 sh -c ./install.sh
+cd ..
+rm -rf fonts
 
 # Install Powerlevel10k and addons
 echo "Installing Powerlevel10k theme..."

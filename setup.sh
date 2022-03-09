@@ -75,6 +75,7 @@ brew install zsh-syntax-highlighting
 echo "Installing some usefull command line tools..."
 brew install ansible
 brew install awscli
+brew install coreutils
 brew install eksctl
 brew install flux
 brew install fping

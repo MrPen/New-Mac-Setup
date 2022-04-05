@@ -135,26 +135,6 @@ alias ad="/Users/slewandowski/scripts/ad.sh"
 alias getCert="/Users/slewandowski/scripts/getCert.sh"
 alias aws.setProfile="source ~/scripts/awsSetProfile"
 
-# Python scripts
-## Gitlab
-alias git.FindRepoURL="python3 /Users/slewandowski/git/private/Python-Scripts/gitlab/find-repo-url/find_repo_url.py"
-alias git.CreateSnippet="python3 /Users/slewandowski/git/private/Python-Scripts/gitlab/create-snippet/create_snippet.py"
-alias git.ChangeUserMail="python3 /Users/slewandowski/git/private/Python-Scripts/gitlab/change-user-mail/change_user_mail.py"
-
-## Jira
-alias jira.CreateTask="python3 /Users/slewandowski/git/private/Python-Scripts/jira/create-task/create_task.py"
-alias jira.GetAssignToMe="python3 /Users/slewandowski/git/private/Python-Scripts/jira/get-assign-to-me/get_assign_to_me.py"
-alias jira.GetWorkLog="python3 /Users/slewandowski/git/private/Python-Scripts/jira/get-work-log/get_work_log.py"
-alias jira.GetWorkLogTime="python3 /Users/slewandowski/git/private/Python-Scripts/jira/get-work-log-time/get_work_log_time.py"
-alias jira.TaskOverviewReport="python3 /Users/slewandowski/git/ict/python/jira_scripts/ict-task-overview-report/main.py"
-
-## Haproxy
-alias haproxy.CanaryWeightCalculator="python3 /Users/slewandowski/git/private/Python-Scripts/haproxy/haproxy-canary/haproxy_canary.py"
-
-## Tools
-alias tools.RPTree="python3 /Users/slewandowski/git/ict/python/tools/rptree/tree.py"
-alias tools.sslCertValidator="python3 /Users/slewandowski/git/private/ssl-cert-validation/main.py"
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 

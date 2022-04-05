@@ -1,0 +1,18 @@
+{
+    "files.autoSave": "afterDelay",
+
+    "workbench.colorTheme": "Material Theme Darker",
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Operator Mono",
+    "editor.fontSize": 15,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.tabSize": 2,
+    "editor.lineHeight": 0,
+
+    "explorer.decorations.badges": false,
+
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+
+}
